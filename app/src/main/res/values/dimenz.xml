@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="betweenBoxes">40dp</dimen>
-    <dimen name="betweenBoxes2">20dp</dimen>
+    <dimen name="betweenBoxes">20dp</dimen>
+    <dimen name="betweenBoxes2">10dp</dimen>
     <dimen name="bufferRight">30dp</dimen>
-    <dimen name="textSize">30sp</dimen>
-    <dimen name="textBoxWidth">200dp</dimen>
-    <dimen name="textBoxLength">50dp</dimen>
-    <dimen name="textViewWidth">150dp</dimen>
+    <dimen name="textSize">20sp</dimen>
+    <dimen name="textBoxWidth">150dp</dimen>
+    <dimen name="textBoxLength">30dp</dimen>
+    <dimen name="textViewWidth">120dp</dimen>
 
 </resources>

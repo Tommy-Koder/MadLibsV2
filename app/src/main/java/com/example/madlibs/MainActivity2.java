@@ -20,7 +20,7 @@ public class MainActivity2 extends AppCompatActivity {
         String place = intent.getStringExtra(PLACE);
         String name = intent.getStringExtra(NAME);
 
-        String strDisplay = "There once was a person named " + name + " and they were " + adj + ". Everyone laughed at them for " + adv + verb +
+        String strDisplay = "There once was a person named " + name + " and they were " + adj + ". Everyone laughed at them for " + adv + " " + verb +
                             "everyday. " + name + "only liked to be at " + place + " because it was the only place that had a " + noun + ".";
 
         TextView str = (TextView) findViewById(R.id.info);
@@ -29,9 +29,9 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public static final String ADJ = "adj";
-    public static final String ADV = "adj";
-    public static final String NOUN = "adj";
-    public static final String VERB = "adj";
-    public static final String PLACE = "adj";
-    public static final String NAME = "adj";
+    public static final String ADV = "adv";
+    public static final String NOUN = "noun";
+    public static final String VERB = "verb";
+    public static final String PLACE = "place";
+    public static final String NAME = "name";
 }
