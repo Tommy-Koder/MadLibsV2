@@ -103,7 +103,7 @@
         android:layout_marginTop="@dimen/betweenBoxes"
         android:layout_marginEnd="@dimen/betweenBoxes2"
         android:gravity="center"
-        android:text="Verb:"
+        android:text="Verb(-ing):"
         android:textSize="@dimen/textSize"
         app:layout_constraintEnd_toStartOf="@+id/verbEt"
         app:layout_constraintTop_toBottomOf="@+id/nounTv" />

@@ -21,7 +21,7 @@ public class MainActivity2 extends AppCompatActivity {
         String name = intent.getStringExtra(NAME);
 
         String strDisplay = "There once was a person named " + name + " and they were " + adj + ". Everyone laughed at them for " + adv + " " + verb +
-                            "everyday. " + name + "only liked to be at " + place + " because it was the only place that had a " + noun + ".";
+                            " everyday. " + name + "only liked to be at " + place + " because it was the only place that had a " + noun + ".";
 
         TextView str = (TextView) findViewById(R.id.info);
         str.setText(strDisplay);
